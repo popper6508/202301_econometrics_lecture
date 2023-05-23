@@ -1,6 +1,6 @@
 # 2023 1학기 Econometrics Project
 
-- ***계량경제학 모델***
+- ***모델 설정 작업***
     - 구인구직 플랫폼의 확장이 정보 불완전성을 해소하면서 구인구직 기간을 단축시키고, 이에 따라 자연실업률 혹은 노동시장의 매칭 효율성에 영향을 줄 것인가.
 
         | Variable | Characteristics |
@@ -16,7 +16,7 @@
     ![image](https://github.com/popper6508/202301_econometrics_lecture/assets/118153199/2c7748ac-6605-4d3c-92b2-020a14dbe144)
     
         
-- 계량경제학 모델
+- ***계량경제학 모델***
     - Basic Frame
         
         $$
@@ -29,7 +29,7 @@
         3. 취업시즌에 따른 계절 변동 제거
 
 
-- Data
+- ***Data***
     | Data | Characteristic |
     | --- | --- |
     | 사람인-잡코리아 트래픽 | Job Platform 시장 규모 |
