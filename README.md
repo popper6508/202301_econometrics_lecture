@@ -1,3 +1,29 @@
+# 2023 1학기 Econometrics Project - Assignment
+- Purpose : The value of education
+- 변수
+    
+    
+    | Variables | What |
+    | --- | --- |
+    | 가구원수 |  |
+    | 나이 | 통제변수 |
+    | 성별 | 통제변수 |
+    | 결혼 상태 | 종속변수 |
+    | 학력 | 독립변수 |
+    | 학력 2 |  |
+    | 연봉 | 종속변수 / 통제변수 |
+    | 고용 형태 | 통제변수 |
+    | 주당 영어 학습 |  |
+    | 한달 기준 영어 학습 비용 |  |
+    | 노조 가입 |  |
+    | 신분증 소지 |  |
+    | 교육기간 | 독립변수 |
+- Regression model
+    - 로지스틱 회귀모형
+        : P(marriage=1) =β0 + β1ysrsshl + β2age + β3wage + β4age * ysrsshl + β4sex * ysrsshl + β5wage * ysrsshl
+
+
+
 # 2023 1학기 Econometrics Project - Personal
 
 - ***모델 설정 작업***
@@ -41,30 +67,4 @@
     | 전산업생산지수 | 통제변수로 활용 검토 |
     - 노동시장 효율성 지표 = 구직기간 1년 미만 구직자 / 구직기간 1년 이상 구직자
     - 통제변수로 전산업생산 지수 사용 후 고용률 변수 통제변수와 비교 => 고용률 변수가 설명력이 더욱 높다는 것 확인
-
-
-# 2023 1학기 Econometrics Project - Assignment
-- Purpose : The value of education
-- 변수
-    
-    
-    | Variables | What |
-    | --- | --- |
-    | 가구원수 |  |
-    | 나이 | 통제변수 |
-    | 성별 | 통제변수 |
-    | 결혼 상태 | 종속변수 |
-    | 학력 | 독립변수 |
-    | 학력 2 |  |
-    | 연봉 | 종속변수 / 통제변수 |
-    | 고용 형태 | 통제변수 |
-    | 주당 영어 학습 |  |
-    | 한달 기준 영어 학습 비용 |  |
-    | 노조 가입 |  |
-    | 신분증 소지 |  |
-    | 교육기간 | 독립변수 |
-- Regression model
-    - 로지스틱 회귀모형
-        : P(marriage=1) =β0 + β1ysrsshl + β2age + β3wage + β4age * ysrsshl + β4sex * ysrsshl + β5wage * ysrsshl
-
 
