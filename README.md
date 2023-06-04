@@ -63,11 +63,8 @@
     | 노조 가입 |  |
     | 신분증 소지 |  |
     | 교육기간 | 독립변수 |
-1. Breifly describe my data
-    - 기초통계량
-    - 여성과 남성의 분포
-    - 결혼 경험 분포
-    - 임금 분포
-    - 연령 분포
-2. Regression model
-3. Result
+- Regression model
+    - 로지스틱 회귀모형
+        : P(marriage=1) =β0 + β1ysrsshl + β2age + β3wage + β4age * ysrsshl + β4sex * ysrsshl + β5wage * ysrsshl
+
+
