@@ -27,7 +27,7 @@
       P(marriage=1) = β0 + β1ysrsshl + β2age + β3wage + β4age * ysrsshl + β4sex * ysrsshl + β5wage * ysrsshl
       ```
 
--------
+-----------------
 
 
 ## 2023 1학기 Econometrics Project - Personal
