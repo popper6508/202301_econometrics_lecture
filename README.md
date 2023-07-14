@@ -1,5 +1,7 @@
-# 2023 1학기 Econometrics Project - Assignment
-- Purpose : The value of education
+## 2023 1학기 Econometrics Project - Assignment
+***Purpose : The value of education***
+- 패널 데이터를 활용해 결혼시장에서 교육 수준이 어떻게 평가받는지 데이터 분석
+- 결혼 경험 여부, 즉 이진 종속 변수 데이터 분석이므로 Logistic Regression 사용
 - 변수
     
     
@@ -18,13 +20,17 @@
     | 노조 가입 |  |
     | 신분증 소지 |  |
     | 교육기간 | 독립변수 |
-- Regression model
-    - 로지스틱 회귀모형
-        : P(marriage=1) =β0 + β1ysrsshl + β2age + β3wage + β4age * ysrsshl + β4sex * ysrsshl + β5wage * ysrsshl
+  
+- ***Regression model***
+    - Logistic Regression Model
+      P(marriage=1) = β0 + β1ysrsshl + β2age + β3wage + β4age * ysrsshl + β4sex * ysrsshl + β5wage * ysrsshl;
 
 
 
-# 2023 1학기 Econometrics Project - Personal
+
+
+
+## 2023 1학기 Econometrics Project - Personal
 
 - ***모델 설정 작업***
     - 구인구직 플랫폼의 확장이 정보 불완전성을 해소하면서 구인구직 기간을 단축시키고, 이에 따라 자연실업률 혹은 노동시장의 매칭 효율성에 영향을 줄 것인가.
@@ -36,7 +42,7 @@
         
     - 모형을 기반으로 보면 통제해야 할 변수는 먼저 ***경기적 요인 변수***
     - 구직기간 단축의 정도를 변수로 설정. 
-    -   ***노동시장의 효율성***이 증가한다는 게 무슨 의미인지 규정. 노동시장의 효율성을 일자리 매칭이 얼마나 잘 이루어지는지가 노동시장의 효율성을 의미. 
+    - ***노동시장의 효율성***이 증가한다는 게 무슨 의미인지 규정. 노동시장의 효율성을 일자리 매칭이 얼마나 잘 이루어지는지가 노동시장의 효율성을 의미. 
     - ***계절성 변수***
         
     ![image](https://github.com/popper6508/202301_econometrics_lecture/assets/118153199/2c7748ac-6605-4d3c-92b2-020a14dbe144)
